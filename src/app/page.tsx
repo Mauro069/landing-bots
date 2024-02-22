@@ -1,7 +1,14 @@
+import Head from 'next/head'
+
 export default function Home () {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <h1>Landing BOTS</h1>
-    </main>
+    <>
+      <Head>
+        <meta name='cryptomus' content='7cda5877' key='cryptomus' />
+      </Head>
+      <main className='flex min-h-screen flex-col items-center justify-between p-24'>
+        <h1>Landing BOTS</h1>
+      </main>
+    </>
   )
 }
