@@ -16,6 +16,7 @@ export default function RootLayout ({
 }>) {
   return (
     <html lang='en'>
+      <meta name='cryptomus' content='7cda5877' />
       <body className={inter.className}>{children}</body>
     </html>
   )
